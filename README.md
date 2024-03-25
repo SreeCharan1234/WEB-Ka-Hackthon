@@ -1,12 +1,54 @@
-# WEB-Ka-Hackthon
-## These are all the screahots of our web page :- 
+<div align="center">
+  
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/eduweb)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/eduweb?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/eduweb?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/x26bQPxcFX4?style=social)](https://youtu.be/x26bQPxcFX4)
 
-![4](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/a929d681-8186-4704-af77-4506f42e0b4b)
-![3](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/75e1d336-0a89-4175-b5a1-61d8ec4b883a)
-![2](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/8cda8283-973c-40cb-8477-4dfc9a37751f)
-![1](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/313fe97a-19d6-424b-bbf4-5bd17c507666)
-![Screenshot 2024-03-23 043943](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/e10ed063-8b03-4b3b-acf3-6abadf083a75)
-![8](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/619496c8-dbb3-43ad-b537-8c0971ccbd23)
-![7](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/da10a79e-2eee-4332-a7d0-ca7c9d23b6d0)
-![6](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/c5e9e9be-f353-4833-acc6-456e7e133579)
-![5](https://github.com/SreeCharan1234/WEB-Ka-Hackthon/assets/119997965/2280dcc2-0352-4a88-911c-d70d7aa34feb)
+  <br />
+  <br />
+
+  <h2 align="center">eduweb - Education Website</h2>
+
+  EduWeb is a fully responsive education website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+
+  <a href="https://codewithsadee.github.io/eduweb/"><strong>➥ Live Demo</strong></a>
+
+</div>
+
+<br />
+
+### Demo Screeshots
+
+![EduWeb Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+
+### Run Locally
+
+To run **EduWeb** locally, run this command on your git bash:
+
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/codewithsadee/eduweb.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/codewithsadee/eduweb.git
+```
+
+### Contact
+
+If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+
+### License
+
+This project is **free to use** and does not contains any license.

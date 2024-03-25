@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!-- YouTube or Website - CodingLab -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Menu for Admin Dashboard</title>
+    <link rel="stylesheet" href="../static/styleass3.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="../static/style-assesment.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <style>
+    /*style.css */
+@import url( 
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+.textup { 
+	text-align: center; 
+	color: rgb(11, 118, 11); 
+	font-weight: 700; 
+} 
+
+i { 
+	margin-right: 3px; 
+} 
+
+.form-box { 
+	background-color: #fff; 
+	box-shadow: 0 0 10px rgba(36, 67, 40, 0.8); 
+	padding: 15px; 
+	border-radius: 8px; 
+    margin-top: 150px;
+	width: 500px; 
+} 
+
+form { 
+	max-width: 400px; 
+	margin: 0 auto; 
+} 
+
+.radio-group { 
+	display: flex; 
+	margin-bottom: 16px; 
+} 
+
+input[type="radio"] { 
+	margin-right: 8px; 
+} 
+
+label { 
+	display: block; 
+	margin-bottom: 8px; 
+	font-size: 17px; 
+	color: green; 
+	font-weight: 600; 
+} 
+
+input, 
+textarea { 
+	width: 100%; 
+	padding: 8px; 
+	margin-bottom: 12px; 
+	box-sizing: border-box; 
+	border-radius: 10px; 
+
+} 
+
+button { 
+	background-color: #368b44; 
+	color: #fff; 
+	padding: 10px; 
+	border: none; 
+	border-radius: 25px; 
+	cursor: pointer; 
+	width: 100%; 
+	font-size: 15px; 
+	transition: .2s linear; 
+} 
+
+button:hover { 
+	background-color: #0a6808; 
+	border: none; 
+	transform: translateY(-10px); 
+} 
+
+h1 { 
+	color: green; 
+}
+.
+  </style>
+  <body>
+    
+    <nav class="sidebar">
+      <a href="#" class="logo">E-Coding</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          
+
+          <li class="item">
+            
+            <a href="learn.html"><i class='bx bxs-dashboard bx-spin' ></i>   Dashbord</a>
+          </li>
+          <li class="item">
+            <div class="submenu-item">
+              <span><i class='bx bxs-data bx-fade-up' ></i> Students</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Students
+              </div>
+              <li class="item">
+                <a href="All_students.html"><i class='bx bxs-bookmarks bx-burst' ></i></i> All_Students</a>
+              </li>
+              <li class="item">
+                <a href="Add_Students.html"><i class='bx bx-laptop bx-burst' ></i>  Add_Students</a>
+              </li>
+            </ul>
+          </li>
+        
+          <li class="item">
+            <div class="submenu-item">
+              <span><i class='bx bxs-data bx-fade-up' ></i> Tracks</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Tracks
+              </div>
+              <li class="item">
+                <a href="Carrer_Tracks.html"><i class='bx bxs-bookmarks bx-burst' ></i></i> Carrer Tracks</a>
+              </li>
+              <li class="item">
+                <a href="Skill_Tracks.html"><i class='bx bx-laptop bx-burst' ></i>  Skill Tracks</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="item">
+            <a href="Courses.html"><i class='bx bxs-book-open bx-flashing' ></i>  Courses</a>
+          </li>
+          <li class="item">
+            <a href="Courses.html"><i class='bx bxs-book-open bx-flashing' ></i> Paid - Courses</a>
+          </li>
+          <li class="item">
+            <a href="E-Books.html"><i class='bx bx-dumbbell bx-spin' ></i> E-Books</a>
+          </li>
+          
+          <li class="item">
+            <a href="assessement.html"><i class='bx bxs-hourglass-top bx-spin' ></i>   Assessment</a>
+          </li>
+          <li class="item">
+            <a href="feedback.html"><i class='bx bxs-notepad bx-tada' ></i>  Competition</a>
+          </li>
+          <li class="item">
+            <a href="dashboard.html"> <i class='bx bxs-notepad bx-tada' ></i>  Join class</a>
+          </li>
+          <li class="item">
+            <div class="submenu-item">
+              <span><i class='bx bxs-data bx-fade-up' ></i> Guidness</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Tracks
+              </div>
+              <li class="item">
+                <a href="Academic.html"><i class='bx bxs-bookmarks bx-burst' ></i></i> Academic Guidance</a>
+
+              </li>
+              <li class="item">
+                <a href="Academic.html"><i class='bx bx-laptop bx-burst' ></i> Career Guidance</a>
+              </li>
+              <li class="item">
+                <a href="Academic.html"><i class='bx bx-laptop bx-burst' ></i> Personal Development</a>
+              </li>
+              <li class="item">
+                <a href="Academic.html"><i class='bx bx-laptop bx-burst' ></i> Peer Mentoring</a>
+              </li>
+              
+
+            </ul>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <nav class="nav">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+        <i class="uil uil-bars navOpenBtn"></i>
+        
+        <ul class="nav-links">
+          
+          <li></i><a href="index.html"><i class='bx bx-home bx-tada' ></i> Home</a></li>
+          <li><a href="learn.html"><i class='bx bx-book bx-tada' ></i>  Learn</a></li>
+          <li><a href="Jobs.html"><i class='bx bxs-buildings bx-tada' ></i> Jobs</a></li>
+          <li><a href="chat.html"><i class='bx bxs-buildings bx-tada' ></i> Chat-bots</a></li>
+        </ul>
+        
+        
+      </nav>
+    </nav>
+
+
+    <main class="main">
+       
+    <form class="form-box" action='.' methods="POST" > 
+        <div class="textup">Feed back</div>
+        <div class="textup"> 
+            
+            <i class="fa fa-solid fa-clock"></i> 
+            It only takes two minutes!! 
+        </div> 
+        <form> 
+            <label for="uname"> 
+                <i class="fa fa-solid fa-user"></i> 
+                Name 
+            </label> 
+            <input type="text" id="uname" 
+                   name="uname" required> 
+  
+            <label for="email"> 
+                <i class="fa fa-solid fa-envelope"></i> 
+                Email Address 
+            </label> 
+            <input type="email" id="email" 
+                   name="email" required> 
+  
+            <label for="phone"> 
+                <i class="fa-solid fa-phone"></i> 
+                Phone No 
+            </label> 
+            <input type="tel" id="phone" 
+                   name="phone" required> 
+  
+            <label> 
+                <i class="fa-solid fa-face-smile"></i> 
+               Are you able to learn the things ? 
+            </label> 
+            <div class="radio-group"> 
+                <input type="radio" id="yes" 
+                       name="satisfy" value="yes" checked> 
+                <label for="yes">Yes</label> 
+  
+                <input type="radio" id="no" 
+                       name="satisfy" value="no"> 
+                <label for="no">No</label> 
+            </div> 
+  
+            <label for="msg"> 
+                <i class="fa-solid fa-comments" 
+                    style="margin-right: 3px;"></i> 
+                Write your Suggestions: 
+            </label> 
+            <textarea id="msg" name="msg" 
+                      rows="4" cols="10" required> 
+            </textarea> 
+            <button type="submit"> 
+                Submit 
+            </button> 
+        </form> 
+    </form> 
+    
+    </main>
+
+    <script>const sidebar = document.querySelector(".sidebar");
+      const sidebarClose = document.querySelector("#sidebar-close");
+      const menu = document.querySelector(".menu-content");
+      const menuItems = document.querySelectorAll(".submenu-item");
+      const subMenuTitles = document.querySelectorAll(".submenu .menu-title");
+      
+      sidebarClose.addEventListener("click", () => sidebar.classList.toggle("close"));
+      
+      menuItems.forEach((item, index) => {
+        item.addEventListener("click", () => {
+          menu.classList.add("submenu-active");
+          item.classList.add("show-submenu");
+          menuItems.forEach((item2, index2) => {
+            if (index !== index2) {
+              item2.classList.remove("show-submenu");
+            }
+          });
+        });
+      });
+      
+      subMenuTitles.forEach((title) => {
+        title.addEventListener("click", () => {
+          menu.classList.remove("submenu-active");
+        });
+      });
+      
+      console.log(menuItems, subMenuTitles);
+      </script>
+  </body>
+</html>

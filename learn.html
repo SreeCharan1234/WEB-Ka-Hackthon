@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!-- YouTube or Website - CodingLab -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Menu for Admin Dashboard</title>
+    <link rel="stylesheet" href="../static/style.css"/>
+    <link rel="stylesheet" href="../static/dashbordcss.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+   
+  </head>
+          <style>
+            .sree{
+              background-color: rgb(218, 227, 230);
+            }
+            
+            .card:hover{
+box-shadow: 4px 16px 32px 4px rgba(61, 203, 68, 0.615);
+transform: scale(1.1);
+transition: all ease-in-out 1.2;
+}
+          </style>
+  <body>
+    
+    <nav class="sidebar">
+      <a href="#" class="logo">E-Coding</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          
+
+          <li class="item">
+            
+            <a href="learn.html"><i class='bx bxs-dashboard bx-spin' ></i>   Dashbord</a>
+          </li>
+          <li class="item">
+            <div class="submenu-item">
+              <span><i class='bx bxs-data bx-fade-up' ></i> Students</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Students
+              </div>
+              <li class="item">
+                <a href="All_students.html"><i class='bx bxs-bookmarks bx-burst' ></i></i> All_Students</a>
+              </li>
+              <li class="item">
+                <a href="Add_Students.html"><i class='bx bx-laptop bx-burst' ></i>  Add_Students</a>
+              </li>
+            </ul>
+          </li>
+        
+          <li class="item">
+            <div class="submenu-item">
+              <span><i class='bx bxs-data bx-fade-up' ></i> Tracks</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Tracks
+              </div>
+              <li class="item">
+                <a href="Carrer_Tracks.html"><i class='bx bxs-bookmarks bx-burst' ></i></i> Carrer Tracks</a>
+              </li>
+              <li class="item">
+                <a href="Skill_Tracks.html"><i class='bx bx-laptop bx-burst' ></i>  Skill Tracks</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="item">
+            <a href="Courses.html"><i class='bx bxs-book-open bx-flashing' ></i>  Courses</a>
+          </li>
+          <li class="item">
+            <a href="Paid.html"><i class='bx bxs-book-open bx-flashing' ></i> Paid - Courses</a>
+          </li>
+          
+          <li class="item">
+            <a href="E-Books.html"><i class='bx bx-dumbbell bx-spin' ></i> E-Books</a>
+          </li>
+          
+          <li class="item">
+            <a href="assessement.html"><i class='bx bxs-hourglass-top bx-spin' ></i>   Assessment</a>
+          </li>
+          <li class="item">
+            <a href="Competititons.html"> <i class='bx bxs-notepad bx-tada' ></i>  Competition</a>
+          </li>
+          <li class="item">
+            <a href="dashboard.html"> <i class='bx bxs-notepad bx-tada' ></i>  Join class</a>
+          </li>
+          <li class="item">
+            <div class="submenu-item">
+              <span><i class='bx bxs-data bx-fade-up' ></i> Guidness</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Tracks
+              </div>
+              <li class="item">
+                <a href="Academic.html"><i class='bx bxs-bookmarks bx-burst' ></i></i> Academic Guidance</a>
+
+              </li>
+              <li class="item">
+                <a href="Academic.html"><i class='bx bx-laptop bx-burst' ></i> Career Guidance</a>
+              </li>
+              <li class="item">
+                <a href="Academic.html"><i class='bx bx-laptop bx-burst' ></i> Personal Development</a>
+              </li>
+              <li class="item">
+                <a href="Academic.html"><i class='bx bx-laptop bx-burst' ></i> Peer Mentoring</a>
+              </li>
+              
+
+            </ul>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <nav class="nav">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+        <i class="uil uil-bars navOpenBtn"></i>
+        
+        <ul class="nav-links">
+          
+          <li></i><a href="index.html"><i class='bx bx-home bx-tada' ></i> Home</a></li>
+          <li><a href="learn.html"><i class='bx bx-book bx-tada' ></i>  Learn</a></li>
+          <li><a href="Jobs.html"><i class='bx bxs-buildings bx-tada' ></i> Jobs</a></li>
+          <li><a href="chat.html"><i class='bx bxs-buildings bx-tada' ></i> Chat-bots</a></li>
+        </ul>
+        
+        
+      </nav>
+    </nav>
+
+    <main class="main">
+      <section class="sree">
+        <div class="sree-top">
+          <h1>Hi👋 {{first_name}} {{last_name}}  </h1>
+          <i class="fas fa-user-cog"></i>
+        </div>
+        <div class="sree-skills">
+          <div class="card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Python</h3>
+            <p >Join Over 1 million Students.</p>
+            <p>Total marks scored  <b> {{python}}</b></p>
+            <a href="assessement.html"><button >Get Started</button></a>
+          </div>
+          <div class="card">
+            <i class="fab fa-wordpress"></i>
+            <h3>Html</h3>
+            <p>Join Over 3 million Students.</p>
+            <p>Total marks scored <b> {{html}} </b></p>
+            <a href="assessement.html"><button >Get Started</button></a>
+          </div>
+          <div class="card">
+            <i class="fas fa-palette"></i>
+            <h3>dsa</h3>
+            <p>Join Over 2 million Students.</p>
+            <p >Total marks scored  <b>{{dsa}}</b></p>
+
+            <a href="assessement.html"><button >Get Started</button></a>
+          </div>
+          <div class="card">
+            <i class="fab fa-app-store-ios"></i>
+            <h3>Total No of course :-{{total}}</h3>
+            
+            <h3>total score :- {{dsa+python+html}}</h3>
+          </div>
+        </div>
+  
+        <section class="sree-course">
+          <h1>My courses</h1>
+          <div class="course-box">
+            <ul>
+              <li class="active">In progress</li>
+              <li>explore</li>
+              <li>incoming</li>
+              <li>finished</li>
+            </ul>
+            <div class="course">
+              <div class="box">
+                <h3>HTML</h3>
+                <p>80% - progress</p>
+                <button>continue</button>
+                <i class="fab fa-html5 html"></i>
+              </div>
+              <div class="box">
+                <h3>CSS</h3>
+                <p>50% - progress</p>
+                <button>continue</button>
+                <i class="fab fa-css3-alt css"></i>
+              </div>
+              <div class="box">
+                <h3>JavaScript</h3>
+                <p>30% - progress</p>
+                <button>continue</button>
+                <i class="fab fa-js-square js"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      
+       
+    
+    </main>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
+    <script>const sidebar = document.querySelector(".sidebar");
+      const sidebarClose = document.querySelector("#sidebar-close");
+      const menu = document.querySelector(".menu-content");
+      const menuItems = document.querySelectorAll(".submenu-item");
+      const subMenuTitles = document.querySelectorAll(".submenu .menu-title");
+      
+      sidebarClose.addEventListener("click", () => sidebar.classList.toggle("close"));
+      
+      menuItems.forEach((item, index) => {
+        item.addEventListener("click", () => {
+          menu.classList.add("submenu-active");
+          item.classList.add("show-submenu");
+          menuItems.forEach((item2, index2) => {
+            if (index !== index2) {
+              item2.classList.remove("show-submenu");
+            }
+          });
+        });
+      });
+      
+      subMenuTitles.forEach((title) => {
+        title.addEventListener("click", () => {
+          menu.classList.remove("submenu-active");
+        });
+      });
+      
+      console.log(menuItems, subMenuTitles);
+      </script>
+  </body>
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!-- YouTube or Website - CodingLab -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Menu for Admin Dashboard</title>
+    <link rel="stylesheet" href="../static/style.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <style>
+    .am{
+      
+    }
+    .content-body{
+    margin-top: 20px;
+      /* background-image: url('../static/s.png'); */
+      background-color: rgb(12, 12, 12);
+      padding: 10px;
+    }
+    .content{
+position: relative;
+width: calc(100% - 230px);
+left: 230px;
+transition: all 0.3s ease;
+}
+
+.name1{
+margin-top: 55px;
+font-size: 20px;
+background-image: linear-gradient(43deg,#4158D0  0%,#C850c0 46%,#FFCC70 100%);
+-webkit-background-clip:text;
+color: #f9f7f7;
+font-weight: bold;
+COLOR:transparent;
+margin-bottom: 8px;
+}
+.name {
+background-image: linear-gradient(43deg,#4158D0  0%,#C850c0 46%,#FFCC70 100%);
+-webkit-background-clip:text;
+
+font-weight: bold;
+COLOR:transparent;
+font-size: 20px;
+
+font-weight: bold;
+
+margin-bottom: 8px;
+}
+.xp {
+line-height: 24px;
+letter-spacing: 0.5px;
+margin-bottom: 12px;
+text-align: center;
+}
+    .card {
+        
+        display: inline-block; /* Set to inline-block to display cards side by side */
+        margin: 100px 35px;; /* Add margin to create space between the cards */
+        position: relative;
+        top:100px;
+        width: 330px;
+        color: #fff;
+        /* background-color: #b3ff00; */
+        border-radius: 16px;
+        box-shadow: 0 4px 30px 0 rgba(0,0,0,0,0.1);
+        width: calc(30.33% -20px);
+        padding: 25px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+        flex: 0 0 50%;
+        backdrop-filter: blur(5px);
+    }
+
+.card:hover{
+box-shadow: 4px 16px 32px 4px rgba(61, 203, 68, 0.615);
+transform: scale(1.1);
+transition: all ease-in-out 1.2;
+}
+
+.card-image {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+overflow: hidden;
+position: absolute;
+top: 0;
+left: 50%;
+transform: translate(-50%, -50%);
+box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+width: 100%;
+transform: scale(1.2);
+}
+.buttons {
+    margin-top: 10px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #007bff;
+    background: #fff;
+    margin:30px 0 10px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .buttons .btn{
+      background-color: orange;
+  }
+  .btn:hover {
+    background-color: #ffe600;
+  }
+  
+</style>
+  <body>
+    <div class="custom-cursor"></div>
+    <nav class="sidebar">
+      <a href="#" class="logo">E-Coding</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          
+
+          <li class="item">
+            
+            <a href="#"><i class='bx bxs-dashboard bx-spin' ></i>   Dashbord</a>
+          </li>
+
+          <li class="item">
+            <div class="submenu-item">
+              <span><i class='bx bxs-data bx-fade-up' ></i> Tracks</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Tracks
+              </div>
+              <li class="item">
+                <a href="#"><i class='bx bxs-bookmarks bx-burst' ></i></i> Carrer Tracks</a>
+              </li>
+              <li class="item">
+                <a href="#"><i class='bx bx-laptop bx-burst' ></i>  Skill Tracks</a>
+              </li>
+            </ul>
+          </li>
+          
+
+          <li class="item">
+            <a href="#"><i class='bx bxs-book-open bx-flashing' ></i>  Courses</a>
+          </li>
+
+          <li class="item">
+            <a href="#"><i class='bx bx-dumbbell bx-spin' ></i> Practices</a>
+          </li>
+          <li class="item">
+            <a href="assessement.html"><i class='bx bxs-hourglass-top bx-spin' ></i>   Assessment</a>
+          </li>
+          <li class="item">
+            <a href="#"> <i class='bx bxs-notepad bx-tada' ></i>  Competition</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <nav class="nav">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+        <i class="uil uil-bars navOpenBtn"></i>
+        
+        <ul class="nav-links">
+          
+          <li></i><a href="index.html"><i class='bx bx-home bx-tada' ></i> Home</a></li>
+          <li><a href="learn.html"><i class='bx bx-book bx-tada' ></i>  Learn</a></li>
+          <li><a href="#"><i class='bx bxs-school bx-tada' ></i> Class</a></li>
+          <li><a href="#"><i class='bx bxs-buildings bx-tada' ></i> Jobs</a></li>
+        </ul>
+        
+        
+      </nav>
+    </nav>
+
+    <main class="main">
+      
+        <div class="content-body">
+            
+            <a href="dsa.html">
+            <div class="card">
+                <div class="card-image">
+                    <img src="../static/amit/facebook.png" alt="Profile image">
+                </div>
+                <p class="name1">Job Title: ML Analysit</p>
+                <p class="name">Company : FACEBOOK</p>
+                <p class="name">Salary: $25,000</p>
+                <p class="name">Skills Required:python, HTML, CSS, JavaScript</p>
+
+                <div class="socials">
+                </div>
+                <div class="buttons">
+                    <button class="btn" >View More</button>
+                    <button class="btn">Apply Now</button>
+                  </div>
+            </div></a>
+
+            <a href="python.html"><div class="card">
+                <div class="card-image">
+                    <img src="../static/amit/google.png" alt="Profile image">
+                </div>
+                <p class="name1">Job Title:Cyber Security </p>
+                <p class="name">Company name: GOOGLE</p>
+                <p class="name">Salary: $50,000</p>
+                <p class="name">Skills Required: Python Certified, Network Certified</p>
+
+                <div class="socials">
+                </div>
+                <div class="buttons">
+                    <button class="btn">View More</button>
+                    <button class="btn">Apply Now</button>
+                  </div>
+            </div></a>
+
+            
+            <a href="c++.html"><div class="card">
+                <div class="card-image">
+                    <img src="../static/amit/wipro.png " alt="Profile image">
+                </div>
+                <p class="name1">Job Title: Web Developer</p>
+                <p class="name">Company name: WIPRO</p>
+                <p class="name">Salary: $15,000,</p>
+                <p class="name">Skills Required: HTML, CSS, JavaScript</p>
+
+                <div class="socials">
+                </div>
+                <div class="buttons">
+                    <button class="btn">View More</button>
+                    <button class="btn">Apply Now</button>
+                  </div>
+            </div></a>
+            
+            <a href="c.html"><div class="card">
+                <div class="card-image">
+                    <img src="../static/amit/microsoft.jpeg" alt="Profile image">
+                </div>
+                <p class="name1">Job Title: AI Specialist</p> 
+                <p class="name">Company name: SAMSUNG</p>
+                <p class="name">Salary: $30,000</p>
+                <p class="name">Skills Required: Python,HTML, CSS</p>
+
+                <div class="socials">
+                </div>
+                <div class="buttons">
+                    <button class="btn">View More</button>
+                    <button class="btn">Apply Now</button>
+                  </div>
+            </div></a>
+
+            <a href=""><div class="card">
+                <div class="card-image">
+                    <img class ="am" src="../static/amit/netflix.jpeg" alt="Profile image">
+                </div>
+                <p class="name1">Job Title: Graphic designer</p>
+                <p class="name">Company name: NETFLIX</p>
+                <p class="name">Salary: $20,000</p>
+                <p class="name">Skills Required: HTML, Adobe certified</p>
+
+                <div class="socials">
+                </div>
+                <div class="buttons">
+                    <button class="btn">View More</button>
+                    <button class="btn">Apply Now</button>
+                  </div>
+            </div></a>
+
+            <a href=""><div class="card">
+                <div class="card-image">
+                    <img src="../static/amit/ibm.png" alt="Profile image">
+                </div>
+                <p class="name1">Job Title: Software Developer</p>
+                <p class="name">Company name: IBM</p>
+                <p class="name">Salary: $25,000</p>
+                <p class="name">Skills Required: C, C++, DSA</p>
+
+                <div class="socials">
+                </div>
+                <div class="buttons">
+                    <button class="btn">View More</button>
+                    <button class="btn">Apply Now</button>
+                  </div>
+            </div></a>
+           
+
+
+
+        </div>
+    </main>
+
+    <script>const sidebar = document.querySelector(".sidebar");
+      const sidebarClose = document.querySelector("#sidebar-close");
+      const menu = document.querySelector(".menu-content");
+      const menuItems = document.querySelectorAll(".submenu-item");
+      const subMenuTitles = document.querySelectorAll(".submenu .menu-title");
+      
+      sidebarClose.addEventListener("click", () => sidebar.classList.toggle("close"));
+      
+      menuItems.forEach((item, index) => {
+        item.addEventListener("click", () => {
+          menu.classList.add("submenu-active");
+          item.classList.add("show-submenu");
+          menuItems.forEach((item2, index2) => {
+            if (index !== index2) {
+              item2.classList.remove("show-submenu");
+            }
+          });
+        });
+      });
+      
+      subMenuTitles.forEach((title) => {
+        title.addEventListener("click", () => {
+          menu.classList.remove("submenu-active");
+        });
+      });
+      
+      console.log(menuItems, subMenuTitles);
+      document.addEventListener("mousemove",function(event){
+        var cursor=document.querySelector(".custom-cursor");
+        cursor.style.top=(event.clientY-cursor.offsetHeight/2)+"px";
+        cursor.style.left=(event.clientX-cousor.offsetWidth/2)+"px";
+      });
+      </script>
+  </body>
+</html>
